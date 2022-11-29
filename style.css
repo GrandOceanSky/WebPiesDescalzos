@@ -1,0 +1,80 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url(/IMG/Fondo.svg);
+
+}
+
+header {
+    line-height: 50px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+
+.vid {
+    width: 100px;
+    padding: 2px;
+    background-color: gray;
+    position: relative;
+}
+
+.sal {
+    width: 100%;
+    color: white;
+    overflow: visible;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(70, 173, 70);
+}
+
+form,
+.form {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+
+
+
+}
+
+input[type='text'],
+select {
+    background-color: transparent;
+
+    border: none;
+    border-bottom: solid 1px purple;
+    color: black
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.con {
+    display: none;
+}
+
+
+.Btnbutton{
+    padding: 26px;
+}
+
+h3 {
+    font-size: 12px;
+}
